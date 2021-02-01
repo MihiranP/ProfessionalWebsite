@@ -23,7 +23,7 @@ function Navigation() {
         <>
             <nav className="navigation">
                 <div className="navigation-container">
-                    <Link to="/home" className="navigation-logo">
+                    <Link to="/" className="navigation-logo">
                         <i class="fas fa-home"></i>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
