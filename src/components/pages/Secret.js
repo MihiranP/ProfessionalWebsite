@@ -3,7 +3,7 @@ import React from 'react'
 function Secret() {
     return (
         <>
-            <p>Secret</p>
+            <p>OMG how'd you find this secret page 😨</p>
         </>
     );
 }

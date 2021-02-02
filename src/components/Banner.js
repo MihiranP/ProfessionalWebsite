@@ -2,9 +2,9 @@ import React from 'react';
 import banner from '../images/img1.jpg';
 import './Banner.css';
 
-function Banner() {
+function Banner(props) {
     return (
-        <div className='banner-container'>
+        <div className={props.banner}>
         </div>
     );
 }
