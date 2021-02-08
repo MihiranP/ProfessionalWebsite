@@ -13,7 +13,10 @@ function CardItem1(props) {
                 </figure>
                     <h1>{props.header}</h1>
                     <h3>{props.subheader}</h3>
-                    <a href={props.pdf}> <h3>{props.pdftext}</h3></a> 
+                    <h3>Email: mihiran.pandey@outlook.com</h3>
+                    <a href={props.pdf}> <h3>{props.pdftext}</h3></a>
+                    <a href='https://www.linkedin.com/in/mihiran-pandey'><h3>LinkedIn</h3></a>
+                    <a href='https://github.com/MihiranP'><h3>GitHub</h3></a>
                      <div className="cards_item_info">
                     <h5 className="cards_item_text">
                         {props.text}
